@@ -1,0 +1,83 @@
+@font-face {
+	font-family: 'MeriendaOne';
+	src: url('fonts/MeriendaOne-Regular.ttf') format('truetype');
+}
+body {
+	margin: 5%;
+	text-align: justify;
+	background-color: #aaa388;
+	background-image: url("images/oldpaper.jpg");
+	background-size: 100% auto;
+}
+p {
+	text-indent: 1em;
+	margin-top: .25em;
+	margin-bottom: .25em;
+	font-style: oblique;
+	text-shadow: .5px .5px #787878;
+	font-family: 'MeriendaOne', Georgia, serif;
+	font-size: 15px;
+	font-weight: lighter;
+}
+a:link {
+	color: #3a2e0c;
+}
+a:visited {
+	color: #7d0552;
+}
+h1 {
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-weight: bold;
+	text-decoration: underline overline;
+	text-shadow: 1px 1px #787878;
+	font-family: 'MeriendaOne', Georgia, serif;
+	font-size: 25px;
+	font-weight: lighter;
+}
+h2 {
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-shadow: .75px .75px #787878;
+	font-family: 'MeriendaOne', Georgia, serif;
+	font-size: 20px;
+	font-weight: lighter;
+}
+hr {
+	width: 50%;
+	border-bottom-width: 0.05em;
+	border-top-color: ghostwhite;
+	border-bottom-color: blanchedalmond;
+	text-align: center;
+	color: #484848;
+} 
+blockquote {
+	font-size: 97%;
+	font-style: italic;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.toc {
+	margin-left: 10%;
+	margin-bottom: .75em;
+}
+.toc2 {
+	margin-left: 20%;
+}
+.tocs {
+	margin-bottom: .75em;
+	text-align: center;
+}
+.tocs2 {
+	text-align: center;
+}
+pre {
+	font-style: italic;
+	font-size: 90%;
+	margin-left: 10%;
+	font-family: 'MeriendaOne', Georgia, serif;
+	font-size: 12px;
+	font-weight: lighter;
+}
