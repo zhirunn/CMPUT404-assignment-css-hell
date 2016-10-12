@@ -56,8 +56,11 @@ hr {
 	padding: 25px 0px 30px 0px;
 	text-align: center;
 	background: linear-gradient(to top right, fuchsia, whitesmoke);
-	text-decoration: blink;
 	font-style: oblique;
+	animation: blink 0.5s infinite;
+}
+@keyframes blink {
+	0% {opacity: 0;}
 }
 a:link {
 	color: #ADD8E6;
